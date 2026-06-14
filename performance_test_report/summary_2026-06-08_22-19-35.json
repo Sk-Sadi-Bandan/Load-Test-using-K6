@@ -1,0 +1,1226 @@
+{
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [
+      {
+        "name": "Home & Dashboard",
+        "path": "::Home & Dashboard",
+        "id": "6af436fc21ad79e04fa858c645c3456e",
+        "groups": [],
+        "checks": [
+            {
+              "fails": 0,
+              "name": "status is 200",
+              "path": "::Home & Dashboard::status is 200",
+              "id": "094451f867d7ef7199bd2462de1f11a6",
+              "passes": 324
+            },
+            {
+              "path": "::Home & Dashboard::response time < 5s",
+              "id": "78edbc76dcae189656dcd130ddd4b49a",
+              "passes": 324,
+              "fails": 0,
+              "name": "response time < 5s"
+            },
+            {
+              "name": "API:/api/v3/supplier_requests:success",
+              "path": "::Home & Dashboard::API:/api/v3/supplier_requests:success",
+              "id": "8caa81a9d35bf2a62f780f87e012fe76",
+              "passes": 81,
+              "fails": 0
+            },
+            {
+              "name": "API:/api/v3/supplier_orders:success",
+              "path": "::Home & Dashboard::API:/api/v3/supplier_orders:success",
+              "id": "eab29d15a5ad1e97dbe3ce52599aa1f9",
+              "passes": 81,
+              "fails": 0
+            },
+            {
+              "name": "API:/api/v1/dashboard:success",
+              "path": "::Home & Dashboard::API:/api/v1/dashboard:success",
+              "id": "a8671403cf49189c91e56f09a1fa325f",
+              "passes": 81,
+              "fails": 0
+            },
+            {
+              "name": "API:/api/v1/dashboard/top_companies:success",
+              "path": "::Home & Dashboard::API:/api/v1/dashboard/top_companies:success",
+              "id": "ca59ad89f7133933959044c643c4bee6",
+              "passes": 81,
+              "fails": 0
+            }
+          ]
+      },
+      {
+        "checks": [
+          {
+            "fails": 0,
+            "name": "status is 200",
+            "path": "::Inventory::status is 200",
+            "id": "a469bfc7c2764fcde2e6005b3bf3b333",
+            "passes": 316
+          },
+          {
+            "id": "20547f4e0ae6d576763bf8b937eca9d7",
+            "passes": 316,
+            "fails": 0,
+            "name": "response time < 5s",
+            "path": "::Inventory::response time < 5s"
+          },
+          {
+            "name": "API:/api/v1/inventory/:success",
+            "path": "::Inventory::API:/api/v1/inventory/:success",
+            "id": "ab6a42a899704dd6a00b636f17979fcf",
+            "passes": 158,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/513:success",
+            "path": "::Inventory::API:/api/v1/inventory/513:success",
+            "id": "af56abc95d8ebfea9b50b7788a8d14ca",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/514:success",
+            "path": "::Inventory::API:/api/v1/inventory/514:success",
+            "id": "2df384761057eea7a45b69b7c74ca192",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/515:success",
+            "path": "::Inventory::API:/api/v1/inventory/515:success",
+            "id": "312bd6f977342c4f9687eb73f34de7a2",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/516:success",
+            "id": "3cab8be65a8520ba0d01fa4f80104874",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/516:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/517:success",
+            "path": "::Inventory::API:/api/v1/inventory/517:success",
+            "id": "7b5be0a1d912b3b7cf5340826dfa1f4c",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/518:success",
+            "path": "::Inventory::API:/api/v1/inventory/518:success",
+            "id": "4e7d7dd2d82eafa381c8063b63a9cebd"
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/519:success",
+            "path": "::Inventory::API:/api/v1/inventory/519:success",
+            "id": "2639ff5cfa27e6c70bc022010cf72e87",
+            "passes": 2
+          },
+          {
+            "id": "724d284815a08129d2a407630d111747",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/520:success",
+            "path": "::Inventory::API:/api/v1/inventory/520:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/521:success",
+            "path": "::Inventory::API:/api/v1/inventory/521:success",
+            "id": "b521b0e96dd8de2431eb448e6ef4da01",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/522:success",
+            "path": "::Inventory::API:/api/v1/inventory/522:success",
+            "id": "5a12db91e3c4c2817e3f1142db4e0a6f",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/523:success",
+            "path": "::Inventory::API:/api/v1/inventory/523:success",
+            "id": "b5b10466076814c331993aabe26805a5",
+            "passes": 2
+          },
+          {
+            "id": "bc0190fc5ba5522a4d8b59e6555aeedf",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/524:success",
+            "path": "::Inventory::API:/api/v1/inventory/524:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/525:success",
+            "path": "::Inventory::API:/api/v1/inventory/525:success",
+            "id": "5c4c2084b101da96dfad9380d639be6c",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/526:success",
+            "path": "::Inventory::API:/api/v1/inventory/526:success",
+            "id": "719749a6dc30566bff7062d630841726",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/527:success",
+            "path": "::Inventory::API:/api/v1/inventory/527:success",
+            "id": "f8bf68b18818694ae08b53604dd675a4",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/528:success",
+            "path": "::Inventory::API:/api/v1/inventory/528:success",
+            "id": "e27567858633ceadef2e25bcc908daba"
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/529:success",
+            "id": "633d0b8c254bd4e7c66db69a0666c4f1",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/529:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/530:success",
+            "path": "::Inventory::API:/api/v1/inventory/530:success",
+            "id": "5352892bfffac406a98cffcd4114b575",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/531:success",
+            "path": "::Inventory::API:/api/v1/inventory/531:success",
+            "id": "aecc12058a47ff40f5957b9d97703c45",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/532:success",
+            "id": "e690a2ef05088f80c651b97f58663a86",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/532:success"
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/533:success",
+            "id": "a42ff9ed9fdd72ad44b8bee950c75601",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/533:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/534:success",
+            "path": "::Inventory::API:/api/v1/inventory/534:success",
+            "id": "df76d127aaab40396b29e90082132ed5",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/535:success",
+            "path": "::Inventory::API:/api/v1/inventory/535:success",
+            "id": "719d6ab832851d6a4ff3b15c320819f4",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/536:success",
+            "path": "::Inventory::API:/api/v1/inventory/536:success",
+            "id": "d1a967f87320710a5d3d26bdd586c6ca"
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/537:success",
+            "path": "::Inventory::API:/api/v1/inventory/537:success",
+            "id": "e4bcbfff715906e0cc2ee7afe82f75bc",
+            "passes": 2
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/538:success",
+            "path": "::Inventory::API:/api/v1/inventory/538:success",
+            "id": "d716b6e5f5e7586f9a61ca561e461f90"
+          },
+          {
+            "id": "7adf4a6d4eb04e34e0f0f95752ac2c6d",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/539:success",
+            "path": "::Inventory::API:/api/v1/inventory/539:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/540:success",
+            "path": "::Inventory::API:/api/v1/inventory/540:success",
+            "id": "cd6c4101b8583c7f8cf5e1cbfde4f937",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/541:success",
+            "path": "::Inventory::API:/api/v1/inventory/541:success",
+            "id": "10a3bde48bd71a984a7eaf89971f2222",
+            "passes": 2
+          },
+          {
+            "name": "API:/api/v1/inventory/542:success",
+            "path": "::Inventory::API:/api/v1/inventory/542:success",
+            "id": "90cb51ac2f702a404949f3830890984e",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/543:success",
+            "path": "::Inventory::API:/api/v1/inventory/543:success",
+            "id": "cd638c9708e70f7b2977cddaad966a16",
+            "passes": 2
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/544:success",
+            "path": "::Inventory::API:/api/v1/inventory/544:success",
+            "id": "d853d4a1d5cfc5757dbdbabad09b69ce",
+            "passes": 2
+          },
+          {
+            "name": "API:/api/v1/inventory/545:success",
+            "path": "::Inventory::API:/api/v1/inventory/545:success",
+            "id": "1bf372cc6e1710ce211b244b6f3a08fa",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/546:success",
+            "path": "::Inventory::API:/api/v1/inventory/546:success",
+            "id": "77a988b79aaccec1b036d8155530a0e5",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/547:success",
+            "path": "::Inventory::API:/api/v1/inventory/547:success",
+            "id": "1e0ff6b441de4d05f7c2ad0145dc3776",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/548:success",
+            "id": "7a0888136e959bbdb51d7eb60a3d3f97",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/548:success"
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/549:success",
+            "id": "1646884b72618befb2ab3eb640723297",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/549:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/550:success",
+            "path": "::Inventory::API:/api/v1/inventory/550:success",
+            "id": "790f1504f2d88bd92ca1ff800c21bd97",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/551:success",
+            "path": "::Inventory::API:/api/v1/inventory/551:success",
+            "id": "2ab7158fba7f09d58f6f9a8985629afc",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/552:success",
+            "path": "::Inventory::API:/api/v1/inventory/552:success",
+            "id": "186cbcb120fd89abec02f0eb837f7f09",
+            "passes": 2
+          },
+          {
+            "name": "API:/api/v1/inventory/553:success",
+            "path": "::Inventory::API:/api/v1/inventory/553:success",
+            "id": "491249ed1bfce4bc2b517587b690c660",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/554:success",
+            "path": "::Inventory::API:/api/v1/inventory/554:success",
+            "id": "96d61622756f77bbfb0ee6bed580e9c0",
+            "passes": 2
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/555:success",
+            "path": "::Inventory::API:/api/v1/inventory/555:success",
+            "id": "eecfc9897753b52e115c0f05336342ed",
+            "passes": 2
+          },
+          {
+            "name": "API:/api/v1/inventory/556:success",
+            "path": "::Inventory::API:/api/v1/inventory/556:success",
+            "id": "005207f0812ff2c56f888daa75c4725d",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/557:success",
+            "path": "::Inventory::API:/api/v1/inventory/557:success",
+            "id": "ca2c73efa2d54e76c5b0916cfabbf1aa",
+            "passes": 2
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/558:success",
+            "path": "::Inventory::API:/api/v1/inventory/558:success",
+            "id": "8936c9ea3503af8f1919c27215bdb7ad"
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/559:success",
+            "path": "::Inventory::API:/api/v1/inventory/559:success",
+            "id": "9c51d845911cb91f9edf33d162b391ae"
+          },
+          {
+            "name": "API:/api/v1/inventory/560:success",
+            "path": "::Inventory::API:/api/v1/inventory/560:success",
+            "id": "38cda8c65d54795ca256dbccf35e49ca",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/561:success",
+            "path": "::Inventory::API:/api/v1/inventory/561:success",
+            "id": "b5e1e3bbd3503aed85c072b714e15b6d"
+          },
+          {
+            "name": "API:/api/v1/inventory/562:success",
+            "path": "::Inventory::API:/api/v1/inventory/562:success",
+            "id": "e052b15ab50dbcbd2ae292b0419d31ce",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "id": "4e8540bb242f362d80aa62bdabcfe3cb",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/563:success",
+            "path": "::Inventory::API:/api/v1/inventory/563:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/564:success",
+            "path": "::Inventory::API:/api/v1/inventory/564:success",
+            "id": "2de3dd57558e08b8da1887e588eadd73",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/565:success",
+            "path": "::Inventory::API:/api/v1/inventory/565:success",
+            "id": "23ed5279283e27ed119c0639c6deac55",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/566:success",
+            "path": "::Inventory::API:/api/v1/inventory/566:success",
+            "id": "91a141c5a49fcd89baa1ba6aeca47ec0",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "id": "32cd76437c3a3ee0cba471be447eab0a",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/567:success",
+            "path": "::Inventory::API:/api/v1/inventory/567:success"
+          },
+          {
+            "id": "438c7f176adb9dd0f202b8b295a7e26f",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/568:success",
+            "path": "::Inventory::API:/api/v1/inventory/568:success"
+          },
+          {
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/569:success",
+            "path": "::Inventory::API:/api/v1/inventory/569:success",
+            "id": "e645c2704eee7c02d78b061507e51865"
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/570:success",
+            "path": "::Inventory::API:/api/v1/inventory/570:success",
+            "id": "ba87c2b19cc3e5536c656ec2e4e6b46e",
+            "passes": 2
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/571:success",
+            "id": "1cab514594d9b9a0e97aba4430bcd564",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/571:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/572:success",
+            "path": "::Inventory::API:/api/v1/inventory/572:success",
+            "id": "a3659b33b2e26d18828a92e0e6b934a3",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/573:success",
+            "path": "::Inventory::API:/api/v1/inventory/573:success",
+            "id": "e5bcfb6e68f84eafe0e82f3c491571d1",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/574:success",
+            "path": "::Inventory::API:/api/v1/inventory/574:success",
+            "id": "0812a00e4c760106241a0b0e9257a7aa",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/575:success",
+            "path": "::Inventory::API:/api/v1/inventory/575:success",
+            "id": "eebf68107e99f8d564ded059c7be5ef1",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "id": "b6231bbaf1c2b1d3ef23947a0c62e360",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/576:success",
+            "path": "::Inventory::API:/api/v1/inventory/576:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/577:success",
+            "path": "::Inventory::API:/api/v1/inventory/577:success",
+            "id": "f07521c74491422555cf4a0d335ed130",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/578:success",
+            "path": "::Inventory::API:/api/v1/inventory/578:success",
+            "id": "9c90081ecbfebf2c904aff190210832b",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/579:success",
+            "path": "::Inventory::API:/api/v1/inventory/579:success",
+            "id": "c6bb423a09472c7a2eca25360de541a8",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "id": "3074e81a0880b687ccabb79b0d25fc4b",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/580:success",
+            "path": "::Inventory::API:/api/v1/inventory/580:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/581:success",
+            "path": "::Inventory::API:/api/v1/inventory/581:success",
+            "id": "27775e0f7f5fca2fecada5ed43d0d1d7",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "fails": 0,
+            "name": "API:/api/v1/inventory/582:success",
+            "path": "::Inventory::API:/api/v1/inventory/582:success",
+            "id": "872d730b28952b06b4e7862e73c5f121",
+            "passes": 2
+          },
+          {
+            "id": "ffec4caf404725c69efdde7d26a059ce",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/583:success",
+            "path": "::Inventory::API:/api/v1/inventory/583:success"
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/585:success",
+            "id": "fecd4098e7884e531292569cb79c383d",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/585:success"
+          },
+          {
+            "path": "::Inventory::API:/api/v1/inventory/584:success",
+            "id": "b9030a9508b5e1aac8520b5e86a95fb1",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/584:success"
+          },
+          {
+            "id": "300512368d8cc1d0b1592bcd3f7b6cd3",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/586:success",
+            "path": "::Inventory::API:/api/v1/inventory/586:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/587:success",
+            "path": "::Inventory::API:/api/v1/inventory/587:success",
+            "id": "7f09020889d4952d8b424f112d78fad3",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "id": "fce605dbf00d56ee0a29dfc271f947ce",
+            "passes": 2,
+            "fails": 0,
+            "name": "API:/api/v1/inventory/588:success",
+            "path": "::Inventory::API:/api/v1/inventory/588:success"
+          },
+          {
+            "name": "API:/api/v1/inventory/589:success",
+            "path": "::Inventory::API:/api/v1/inventory/589:success",
+            "id": "35b92916e2a1705a6b525205de6edd52",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/590:success",
+            "path": "::Inventory::API:/api/v1/inventory/590:success",
+            "id": "add2c133d97dc3e63b4d22b983916f51",
+            "passes": 2,
+            "fails": 0
+          },
+          {
+            "name": "API:/api/v1/inventory/591:success",
+            "path": "::Inventory::API:/api/v1/inventory/591:success",
+            "id": "ba5faa5471a08b8f0f5a4f12e3b1a231",
+            "passes": 2,
+            "fails": 0
+          }
+        ],
+        "name": "Inventory",
+        "path": "::Inventory",
+        "id": "c25933146977fed75a553836df52ad84",
+        "groups": []
+      },
+      {
+        "name": "Supplier Requests",
+        "path": "::Supplier Requests",
+        "id": "4e38d127199f961ef5a7fe294a8b2d7f",
+        "groups": [],
+        "checks": [
+            {
+              "name": "status is 200",
+              "path": "::Supplier Requests::status is 200",
+              "id": "355320dbb97058fe832bd41ab4834461",
+              "passes": 150,
+              "fails": 0
+            },
+            {
+              "name": "response time < 5s",
+              "path": "::Supplier Requests::response time < 5s",
+              "id": "7efbab0da25818c69f5b7b63b9be1b3b",
+              "passes": 150,
+              "fails": 0
+            },
+            {
+              "name": "API:/api/v3/supplier_requests/:success",
+              "path": "::Supplier Requests::API:/api/v3/supplier_requests/:success",
+              "id": "0b19b31911d458ade1ee251979da9be1",
+              "passes": 75,
+              "fails": 0
+            },
+            {
+              "id": "3f35d2c8b3ff516d45c1ba99b95745d1",
+              "passes": 75,
+              "fails": 0,
+              "name": "API:/api/v3/supplier_requests/200:success",
+              "path": "::Supplier Requests::API:/api/v3/supplier_requests/200:success"
+            }
+          ]
+      },
+      {
+        "name": "Supplier Orders",
+        "path": "::Supplier Orders",
+        "id": "039ec556c94552a99d65582d101eac38",
+        "groups": [],
+        "checks": [
+            {
+              "name": "status is 200",
+              "path": "::Supplier Orders::status is 200",
+              "id": "28a590098844e917bd2fa277601c87c6",
+              "passes": 133,
+              "fails": 0
+            },
+            {
+              "name": "response time < 5s",
+              "path": "::Supplier Orders::response time < 5s",
+              "id": "ba7f3fafe7d91aed5c712bbe3c986550",
+              "passes": 133,
+              "fails": 0
+            },
+            {
+              "name": "API:/api/v3/supplier_orders/:success",
+              "path": "::Supplier Orders::API:/api/v3/supplier_orders/:success",
+              "id": "78ebe81d3e7ab0032318f514de6fa6bf",
+              "passes": 67,
+              "fails": 0
+            },
+            {
+              "id": "061f5a9b6d0e10e62285a99c4d56af1e",
+              "passes": 66,
+              "fails": 0,
+              "name": "API:/api/v3/supplier_orders/103:success",
+              "path": "::Supplier Orders::API:/api/v3/supplier_orders/103:success"
+            }
+          ]
+      }
+    ],
+    "checks": [
+      {
+        "path": "::sign in status 200",
+        "id": "a2798b1e3c4140fed4db7ced2487a55a",
+        "passes": 81,
+        "fails": 0,
+        "name": "sign in status 200"
+      },
+      {
+        "path": "::sign in response time < 5s",
+        "id": "1558f0b40e74eb9340ebd8bdc7a35192",
+        "passes": 81,
+        "fails": 0,
+        "name": "sign in response time < 5s"
+      },
+      {
+        "fails": 0,
+        "name": "API:/api/v1/auth/login/:success",
+        "path": "::API:/api/v1/auth/login/:success",
+        "id": "daee20db3a9ef62a59202c87c5a3aa0d",
+        "passes": 81
+      }
+    ]
+  },
+  "options": {
+    "summaryTimeUnit": "",
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ]
+  },
+  "state": {
+    "isStdOutTTY": true,
+    "isStdErrTTY": true,
+    "testRunDurationMs": 328589.7262
+  },
+  "metrics": {
+    "http_req_duration{endpoint:supplier_requests}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 139.87091000000004,
+        "min": 78.6606,
+        "med": 113.1756,
+        "max": 694.3167,
+        "p(90)": 211.47905999999998,
+        "p(95)": 270.2427249999995
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    },
+    "endpoint_success_count": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 3.0554820189019045,
+        "count": 1004
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 186.88540517928305,
+        "min": 75.4126,
+        "med": 125.52000000000001,
+        "max": 887.9395,
+        "p(90)": 400.3931800000001,
+        "p(95)": 434.34908999999993
+      }
+    },
+    "group_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 178.7697,
+        "med": 538.8569,
+        "max": 1719.2649,
+        "p(90)": 794.7505,
+        "p(95)": 875.2415,
+        "avg": 498.2658186046512
+      }
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 19206.9474,
+        "max": 21789.5042,
+        "p(90)": 20276.20586,
+        "p(95)": 20410.7188,
+        "avg": 19337.38694153846,
+        "min": 18280.6693
+      }
+    },
+    "successful_requests": {
+      "contains": "default",
+      "values": {
+        "count": 1004,
+        "rate": 3.0554820189019045
+      },
+      "type": "counter"
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 159.4004530876495,
+        "min": 75.4126,
+        "med": 119.5101,
+        "max": 886.0804,
+        "p(90)": 281.26735000000025,
+        "p(95)": 420.150615
+      }
+    },
+    "supplier_orders_duration": {
+      "values": {
+        "p(95)": 222.07677999999999,
+        "avg": 143.25586842105258,
+        "min": 92.8551,
+        "med": 131.0581,
+        "max": 427.4219,
+        "p(90)": 203.6297
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 3.317646115537848,
+        "min": 0,
+        "med": 0,
+        "max": 278.6713,
+        "p(90)": 0,
+        "p(95)": 0
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 1004
+      },
+      "thresholds": {
+        "rate<0.10": {
+          "ok": true
+        }
+      }
+    },
+    "response_time_ms": {
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "min": 75.4126,
+        "med": 121.504,
+        "max": 781.1735,
+        "p(90)": 304.8487400000002,
+        "p(95)": 359.11241,
+        "avg": 161.70053250270868
+      }
+    },
+    "active_vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 4,
+        "min": 1,
+        "max": 10
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 0,
+        "p(95)": 0.6066599999999999,
+        "avg": 0.07141434262948207,
+        "min": 0,
+        "med": 0,
+        "max": 4.5408
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 3.3297905378486057,
+        "min": 0,
+        "med": 0,
+        "max": 278.6713
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 10,
+        "min": 10,
+        "max": 10
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 65,
+        "rate": 0.19781507094484443
+      }
+    },
+    "success_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "fails": 0,
+        "rate": 1,
+        "passes": 1004
+      },
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_duration{endpoint:sign_in}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 473.8685839506172,
+        "min": 390.4643,
+        "med": 426.346,
+        "max": 887.9395,
+        "p(90)": 537.1678,
+        "p(95)": 852.6176
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    },
+    "inventory_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 781.1735,
+        "p(90)": 373.05465000000004,
+        "p(95)": 414.316425,
+        "avg": 187.68483101265818,
+        "min": 83.285,
+        "med": 121.81004999999999
+      }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 3012,
+        "fails": 0
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 230843,
+        "rate": 702.5265295710881
+      }
+    },
+    "http_reqs": {
+      "values": {
+        "count": 1004,
+        "rate": 3.0554820189019045
+      },
+      "thresholds": {
+        "rate>3": {
+          "ok": true
+        }
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "max": 10,
+        "value": 2,
+        "min": 0
+      }
+    },
+    "error_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 1004
+      },
+      "thresholds": {
+        "rate<0.10": {
+          "ok": true
+        }
+      }
+    },
+    "sign_in_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 887.9395,
+        "p(90)": 537.1678,
+        "p(95)": 852.6176,
+        "avg": 473.8685839506172,
+        "min": 390.4643,
+        "med": 426.346
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 27.413537749003975,
+        "min": 0,
+        "med": 1.6183,
+        "max": 418.4617,
+        "p(90)": 100.62127000000004,
+        "p(95)": 194.89783999999992
+      }
+    },
+    "data_sent_bytes": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 2916,
+        "rate": 8.874288413464098
+      }
+    },
+    "failed_requests": {
+      "values": {
+        "count": 0,
+        "rate": 0
+      },
+      "thresholds": {
+        "count<500": {
+          "ok": true
+        }
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "time_to_first_byte": {
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "avg": 132.0193647887323,
+        "min": 75.4126,
+        "med": 116.6686,
+        "max": 693.9214,
+        "p(90)": 199.01016000000007,
+        "p(95)": 215.35460999999998
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 186.88540517928305,
+        "min": 75.4126,
+        "med": 125.52000000000001,
+        "max": 887.9395,
+        "p(90)": 400.3931800000001,
+        "p(95)": 434.34908999999993
+      },
+      "thresholds": {
+        "p(95)<4000": {
+          "ok": true
+        },
+        "p(99)<5000": {
+          "ok": true
+        },
+        "p(50)<1000": {
+          "ok": true
+        },
+        "p(90)<3000": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 0,
+        "min": 0,
+        "med": 0
+      }
+    },
+    "http_req_duration{endpoint:inventory}": {
+      "values": {
+        "p(90)": 391.4638,
+        "p(95)": 435.76791999999995,
+        "avg": 209.06649367088602,
+        "min": 83.7569,
+        "med": 128.5684,
+        "max": 781.1735
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_duration{endpoint:supplier_orders}": {
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 131.0581,
+        "max": 427.4219,
+        "p(90)": 203.6297,
+        "p(95)": 222.07677999999999,
+        "avg": 143.25586842105258,
+        "min": 92.8551
+      }
+    },
+    "http_req_duration{endpoint:home}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 154.03554907407397,
+        "min": 75.4126,
+        "med": 119.9798,
+        "max": 553.4684,
+        "p(90)": 258.65259,
+        "p(95)": 295.80662499999994
+      },
+      "thresholds": {
+        "p(95)<5000": {
+          "ok": true
+        }
+      }
+    },
+    "supplier_requests_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 211.47905999999998,
+        "p(95)": 270.2427249999995,
+        "avg": 139.87091000000004,
+        "min": 78.6606,
+        "med": 113.1756,
+        "max": 694.3167
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 7349607,
+        "rate": 22367.123540334233
+      }
+    },
+    "api_success": {
+      "values": {
+        "count": 1004,
+        "rate": 3.0554820189019045
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "home_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 75.4126,
+        "med": 119.9798,
+        "max": 553.4684,
+        "p(90)": 258.65259,
+        "p(95)": 295.80662499999994,
+        "avg": 154.03554907407397
+      }
+    },
+    "data_received_bytes": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 6487467,
+        "rate": 19743.365305497493
+      }
+    }
+  }
+}
